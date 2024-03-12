@@ -13,10 +13,11 @@ const DisplayMed = () => {
       <ul>
         {Object.keys(cart.medList).map((ele)=>{
             const {desc,price,quant}=cart.medList[ele]
+            
             return (
                 <li>
-                  {ele}-{desc}-{price}-{quant}
-                  <Button onClick={()=>{cart.addItem({medName:ele,...cart.medList[ele]})}} type="button" label="Add to cart" />
+                  {ele}-{desc}-{price}-{quant!=0?quant:"no stock"}
+                  <Button onClick={()=>{cart.addItem({medName:ele,...cart.medList[ele]})}} type="button" label="Add to cart" status={quant!=0?false:true}/>
                 </li>
               )
         })}
