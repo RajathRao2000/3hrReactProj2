@@ -1,0 +1,72 @@
+.itemContainer{
+    display: flex;
+    /* flex-direction: column; */
+    border-bottom: solid 1px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description{
+    font-style: italic;
+}
+
+.button{
+    /* background-color: black; */
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.cartContainer{
+    /* position: fixed; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    border-radius: 10px;
+    width:500px
+}
+
+.button{
+    align-self: flex-end;
+    
+}
+
+.buttongroup>.button{
+    background-color: black;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    width:100vw;
+    height: 100vh;
+}
+
+.buttongroup{
+    display: flex;
+    flex-direction: row;
+    width:200px;
+    border: solid;
+}
+
+.itemData{
+    /* border:solid; */
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

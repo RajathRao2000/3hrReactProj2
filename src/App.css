@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.Cartbutton{
+  /* position: sticky; */
+  /* right: 10px; */
+  left: 10px;
+  /* background-color: black; */
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: solid rgba(0, 0, 0, 0.281);
+}

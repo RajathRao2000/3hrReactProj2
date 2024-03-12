@@ -1,0 +1,27 @@
+ th,td:not(:last-child){
+    padding: 10px;
+    border: 1px solid;
+    /* margin: 10px; */
+}
+/* .table>tr:not(:last-child){
+    
+} */
+
+.table{
+    margin: 20px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    /* padding: 10px; */
+}
+
+.table>h2{
+    margin: 10px 0;
+}
+
+.table>tbody{
+    margin: 10px;
+}
+
+.button{
+    margin: 0 5px;;
+}
